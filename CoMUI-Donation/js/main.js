@@ -27,10 +27,10 @@
     });
     
   
-    $('.change-bg2').css('top', $('.change-bg1').height()*1.1);
+    $('.change-bg2').css('top', $('.change-bg1').height()*1);
     $(window).scroll(function () {
-        console.log($(this).scrollTop() >   $('.top-image').offset().top + $('.top-image').outerHeight(true))
-        if ($(this).scrollTop() >   $('.top-image').position().top + $('.top-image').outerHeight(true)) {
+        console.log($(this).scrollTop() >   ($('.top-image').offset().top + $('.top-image').outerHeight(true))*0.8)
+        if ($(this).scrollTop() >   ($('.top-image').offset().top + $('.top-image').outerHeight(true))*0.8) {
             $('.change-bg2').addClass('bg-dark');
             $('.change-bg2').removeClass('bg-blue');
         } else {
@@ -38,6 +38,15 @@
             $('.change-bg2').removeClass('bg-dark');
         }
     });
+
+    $('#nigerianaccounts').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $('#usdtransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $('#eurotransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $('#poundstransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+
+    
+
+
 
     // Back to top button
     $(window).scroll(function () {
