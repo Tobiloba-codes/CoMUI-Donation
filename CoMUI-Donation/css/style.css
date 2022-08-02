@@ -103,13 +103,17 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     padding: 35px 15px;
-    color: var(--light);
+    color: var(--light) !important;
     outline: none;
+}
+
+.nav-link{
+    color: white;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .navbar.fixed-top {
@@ -429,3 +433,26 @@ h6,
 /* .images{
     margin-left: 350px;
 } */
+
+
+
+.second-nav{
+    top: 90px;
+    /* color: #fff; */
+}
+
+/* Scrolling anchor */
+#nigerianaccounts {
+    scroll-margin-top: 140px;
+    }
+#usdtransfers {
+    scroll-margin-top: 140px;
+    }
+#eurotransfers {
+    scroll-margin-top: 140px;
+    }
+#poundstransfers {
+    scroll-margin-top: 140px;
+    }
+
+    
