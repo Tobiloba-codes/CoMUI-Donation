@@ -29,7 +29,6 @@
   
     $('.change-bg2').css('top', $('.change-bg1').height()*1);
     $(window).scroll(function () {
-        console.log($(this).scrollTop() >   ($('.top-image').offset().top + $('.top-image').outerHeight(true))*0.8)
         if ($(this).scrollTop() >   ($('.top-image').offset().top + $('.top-image').outerHeight(true))*0.8) {
             $('.change-bg2').addClass('bg-dark');
             $('.change-bg2').removeClass('bg-blue');
