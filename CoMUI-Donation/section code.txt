@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/Cleaningcircle1.jpg" alt="" style="width: 350px; height:350px;">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4" style= "color: black;">General Home Cleaningleaning</h2>
+            <p>You’ve got no time for that sweet-smelling haven you crave for, right? 
+I thought as much.
+Still, your home deserves it; after all, it is that one place you get to lay your head after the nerve-racking day.
+Get a Decent, no; CLEAN and SWEET SMELLING home you want without lifting as much as a finger.
+Clear out that space!
+Get rid of that unseen dirt!
+Get a sparkling home!
+Your properties are intact, and you can trust our professional hands..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
