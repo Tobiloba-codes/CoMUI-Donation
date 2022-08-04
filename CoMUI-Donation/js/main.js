@@ -17,17 +17,23 @@
 
 
     // Fixed Navbar
+    $('.change-bg2').css('top', $('.change-bg1').height()*1.05);
     $('.fixed-top').css('top', $('.top-bar').height());
+    $('#nigerianaccounts').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.5 )
+    $('#usdtransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $('#eurotransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $('#poundstransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
     $(window).scroll(function () {
         if ($(this).scrollTop()) {
             $('.fixed-top').addClass('bg-dark').css('top', 0);
+            
         } else {
             $('.fixed-top').removeClass('bg-dark').css('top', $('.top-bar').height());
+            
         }
     });
     
   
-    $('.change-bg2').css('top', $('.change-bg1').height()*1);
     $(window).scroll(function () {
         if ($(this).scrollTop() >   ($('.top-image').offset().top + $('.top-image').outerHeight(true))*0.8) {
             $('.change-bg2').addClass('bg-dark');
@@ -38,10 +44,15 @@
         }
     });
 
-    $('#nigerianaccounts').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
-    $('#usdtransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
-    $('#eurotransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
-    $('#poundstransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+    $(window).resize(function() {
+        $('.change-bg2').css('top', $('.change-bg1').height()*1.05);
+        $('.fixed-top').css('top', $('.top-bar').height());
+        $('#nigerianaccounts').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.5 )
+        $('#usdtransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+        $('#eurotransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+        $('#poundstransfers').css('scroll-margin-top',($('.change-bg1').height()+ $('.change-bg2').height())*1.2 )
+          });
+
 
     
 
