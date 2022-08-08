@@ -114,7 +114,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #b7b758!important;
+    color:    #d718e3!important;
 }
 
 .navbar.bg-dark  .navbar-nav .nav-link:hover,
@@ -465,4 +465,21 @@ h6,
     scroll-margin-top: 140px;
     }
 
-    
+    #blocka {
+        scroll-margin-top: 140px;
+        }
+    #blockb {
+        scroll-margin-top: 140px;
+        }
+    #blockc {
+        scroll-margin-top: 140px;
+        }
+    #blockd {
+        scroll-margin-top: 140px;
+        }
+    #blocke {
+            scroll-margin-top: 140px;
+            }
+        #blockf {
+                scroll-margin-top: 140px;
+                }
