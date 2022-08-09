@@ -17,7 +17,7 @@
 
 
     // Fixed Navbar
-    $('.change-bg2').css('top', $('.fixed-top').height()*1.0);
+    $('.change-bg2').css('top', $('.fixed-top').height()*1.05);
     $('.fixed-top').css('top', $('.top-bar').height());
     $('.scroll-section').css('scroll-margin-top',($('.fixed-top').height()+ $('.change-bg2').height())*1.5 )
     // $('#usdtransfers').css('scroll-margin-top',($('.fixed-top').height()+ $('.change-bg2').height())*1.2 )
