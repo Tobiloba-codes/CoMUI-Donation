@@ -82,7 +82,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Trirong", serif;
     font-weight: 700;
     line-height: 1.2;
     color: #1E1916
@@ -4396,7 +4396,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: var(--bs-blue);
+    background-color: #d718e3;
 }
 
 .nav-fill>.nav-link,
